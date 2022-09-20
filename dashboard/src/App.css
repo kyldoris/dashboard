@@ -1,12 +1,16 @@
+:root{
+  background-color: #1c4e80;
+  color: #ffff;
+  
+}
 .sidebar {
   width:200px;
   height:100%;
   position:absolute;
   margin:25px;
   padding:10px 0px 20px 0px;
-  border:1px solid #111;
+  border:1px solid #fff;
   border-radius:4px;
-
 }
 
 .sidebar div {
@@ -18,4 +22,37 @@
   overflow:hidden;
   width:90%;
   margin-left:5%;
+  
   }
+
+.mainContent {
+    margin-left: 300px;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    flex-grow: 1;
+    
+  }  
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 2fr 1fr 2fr;
+	column-gap: 1.5rem;
+	row-gap: .5rem;
+}
+
+.panel{
+  padding-left: 25px;
+  width: 200px;
+  height: 300px;
+  border:1px solid #fff;
+  border-radius:4px; 
+
+}
+
+.customersPanel{
+  padding-left: 25px;
+  height:250px;
+  border:1px solid #fff;
+  border-radius:4px; 
+}

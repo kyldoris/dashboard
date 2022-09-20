@@ -1,9 +1,9 @@
 import React from "react";
-import SideBar from "./components/SideBar";
+import Dashboard from "./components/Dashboard";
 import "./App.css";
 
 function App() {
-  return <SideBar/>;
+  return <Dashboard/>;
 }
 
 export default App;

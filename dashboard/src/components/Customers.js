@@ -2,8 +2,9 @@ import React from "react";
 
 function Customers(props) {
   return (
-    <div id="customers">
+    <div className="customers" >
           <h3>Customers</h3>
+          
     </div>
   );
 }
